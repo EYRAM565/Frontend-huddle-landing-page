@@ -1,0 +1,28 @@
+body {
+  background-color: #674baf;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.logo {
+  padding-bottom: 70px;
+  max-width: 200px;
+}
+
+.container {
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mockups {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding-top: 30px;
+  text-align: center;
+}
+/*# sourceMappingURL=tuesday.css.map */

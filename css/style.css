@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Topography*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #674baf;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+body .logo {
+  padding-top: 1rem;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  gap: 1rem;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.container ul li {
+  border: 0.0625rem solid #fff;
+  border-radius: 50%;
+  padding: 0.9rem 0.9rem;
+}
+
+.container ul li:hover {
+  color: #e882e8;
+  border: 0.0625rem solid #e882e8;
+}
+
+.container .container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.container .container1 .mockups {
+  max-width: 45rem;
+}
+
+.container .container1 .build_huddle {
+  margin: 2.5rem;
+}
+
+.container .container1 .build_huddle h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  max-width: 25rem;
+}
+
+.container .container1 .build_huddle p {
+  font-size: 1rem;
+}
+
+.container .container1 .build_huddle button {
+  background-color: #fff;
+  font-size: 1rem;
+  color: #674baf;
+  padding: 0.625rem 3.125rem;
+  border: none;
+  border-radius: 1.875rem;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .container1 .build_huddle button:hover {
+  color: #fff;
+  background-color: #e882e8;
+}
+
+@media screen and (max-width: 768px) {
+  .container .container1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .container1 .build_huddle h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .container .container1 .build_huddle p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .container .container1 .build_huddle button {
+    margin-top: 1rem;
+    padding: 0.3125rem 3.75rem;
+    margin-left: 1.6rem;
+  }
+  .container ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

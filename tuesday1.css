@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: hsl(257, 40%, 49%);
+	color: #fff;
+	min-height: 100vh;
+}
+
+.container {
+	display: flex;
+	gap: 30px;
+}
+
+.logo {
+	padding-bottom: 70px;
+	max-width: 200px;
+}
+
+.container {
+	background-image: url('../images/bg-desktop.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-left: 50px;
+}
+
+.mockups {
+	max-width: 600px;
+}
+
+.wrapper {
+	margin-left: 5px;
+}
+
+.wrapper h1 {
+	font-size: 40px;
+	padding-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+.wrapper p {
+	font-size: 14px;
+	width: 400px;
+	line-height: 1.5;
+	padding-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.wrapper button {
+	width: 130px;
+	height: 35px;
+	border-radius: 20px;
+	border: 1px solid #fff;
+	background: #fff;
+	color: hsl(257, 40%, 49%);
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+	margin-top: 50%;
+	margin-left: 80%;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.icon a {
+	border: 1px solid #fff;
+	padding: 10px;
+	border-radius: 50%;
+	color: #fff;
+}
+
+a:hover {
+	border: 1px solid hsl(300, 69%, 71%);
+	color: hsl(300, 69%, 71%);
+}
+
+button:hover {
+	background: hsl(300, 69%, 71%);
+	border: 1px solid hsl(300, 69%, 71%);
+	color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		background-image: url('../images/bg-mobile.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top center 100%;
+		flex-direction: column;
+	}
+
+	.logo {
+		padding: 30px;
+	}
+
+	.mockups {
+		max-width: 350px;
+		margin-right: 40px;
+	}
+
+	.wrapper h1 {
+		font-size: 25px;
+		text-align: center;
+		margin-right: 30px;
+	}
+
+	.wrapper p {
+		width: 265px;
+		text-align: center;
+	}
+
+	.wrapper button {
+		width: 220px;
+		height: 40px;
+		margin-left: 20px;
+	}
+
+	.icon {
+		margin-top: 60px;
+
+		margin-left: 70px;
+	}
+}
